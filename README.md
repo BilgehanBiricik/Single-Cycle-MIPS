@@ -1,5 +1,5 @@
 # Single Cycle MIPS Implementation with VHDL
-Single Cycle MIPS implementations using Xilinx ISE Design Suite 14.7 with VHDL.
+Single Cycle MIPS implementation using Xilinx ISE Design Suite 14.7 with VHDL.
 
 ## Design
 The datapath that is used for as a reference in this project.
