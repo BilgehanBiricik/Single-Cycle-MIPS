@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/bilgehan/Desktop/MIPS/tb_MIPSProcessor_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_mipsprocessor" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb_mipsprocessor/clk" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="label">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/reset" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="label">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/pcout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pcout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcout[31:0]</obj_property>
+      <obj_property name="label">PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/instruction" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      <obj_property name="label">Instruction_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/branche" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">branche</obj_property>
+      <obj_property name="ObjectShortName">branche</obj_property>
+      <obj_property name="label">Branch_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/branchne" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">branchne</obj_property>
+      <obj_property name="ObjectShortName">branchne</obj_property>
+      <obj_property name="label">Branch_NE_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/alu_zero" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">alu_zero</obj_property>
+      <obj_property name="ObjectShortName">alu_zero</obj_property>
+      <obj_property name="label">Zero_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/jump" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+      <obj_property name="label">Jump_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/rf_read_data_1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_read_data_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_read_data_1[31:0]</obj_property>
+      <obj_property name="label">Read_Data1_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/rf_read_data_2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_read_data_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_read_data_2[31:0]</obj_property>
+      <obj_property name="label">Read_Data2_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/alu_result" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      <obj_property name="label">ALU_Result_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/memtoregmuxout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">memtoregmuxout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memtoregmuxout[31:0]</obj_property>
+      <obj_property name="label">Write_Data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mipsprocessor/uut/regwrite" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+      <obj_property name="label">RegWrite_out</obj_property>
+   </wvobject>
+</wave_config>
